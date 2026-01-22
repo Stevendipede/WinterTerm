@@ -10,13 +10,13 @@ package studentlist;
  */
 public class PartTimeStudent {
     
-    private String studentNumber;
+    private int studentNumber;
 
-    public String getStudentNumber() {
+    public int getStudentNumber() {
         return studentNumber;
     }
 
-    public void setStudentNumber(String studentNumber) {
+    public void setStudentNumber(int studentNumber) {
         this.studentNumber = studentNumber;
     }
     
