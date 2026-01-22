@@ -11,8 +11,9 @@ package studentlist;
 public class Student // model the student raw data
 {
     private String name; // variables private 
-   private int sid; // principle "encapsulation"
-private int sem;
+    private String email;
+    private int sid; // principle "encapsulation"
+    private int sem;
     /**
      * @return the name
      */
@@ -25,6 +26,14 @@ private int sem;
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     /**
